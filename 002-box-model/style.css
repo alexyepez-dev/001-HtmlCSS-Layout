@@ -4,3 +4,58 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+* {
+  /* Formateo de pagina | Trabajar con el tamaño original */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background-color: #995DB5;
+  display: flex;
+  /* flex-direction: column; */
+  /* Esta propiedad centra el elemento de arriba a abajo */
+  align-items: baseline;
+  /* Esta propiedad centra de izquiera a derecha */
+  justify-content: space-around;
+  /* Permite agregar espacio entre los elementos */
+  gap: 10px;
+  /* padding: 10px; */
+  border-radius: 0.7rem;
+  padding: 0.7rem;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  width: 100px;
+  height: 100px;
+  background-color: #f7941f;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span {
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.caja {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: chartreuse;
+}

@@ -94,3 +94,25 @@ Estas pueden ser:
 ## CSS:
 
 - CSS: Cheat Sheet Style. Permite poder brindar estilos a la maquetacion, en forma de cascada
+
+Propiedades basicas:
+
+- color
+- font-family
+- font-size
+- font-weight
+- letter-spacing
+
+## Formateo de pagina:
+
+- margin (margen): Separacion del cuerpo de la web entre elementos
+- border (borde): Borde del relleno
+- padding (relleno): Se separa del contenido
+- content (contenido)
+
+## Distribucion de la Web:
+
+Flex-box (caja flexible): Es el que se encarga del posicionamiento, distribucion de los elementos de nuestra web.
+Algunos elementos de flex son:
+
+- display: flex. Organiza los elementos tanto en filas de izquierda a derecha (row) como columnas (column) de arriba a abajo
