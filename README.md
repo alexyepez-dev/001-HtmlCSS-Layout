@@ -90,3 +90,7 @@ Estas pueden ser:
 - footer: Pie de pagina de la web. Incluye informacion de copyright, enlaces legales, contacto
 - section
 - article
+
+## CSS:
+
+- CSS: Cheat Sheet Style. Permite poder brindar estilos a la maquetacion, en forma de cascada

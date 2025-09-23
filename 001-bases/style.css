@@ -4,3 +4,54 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.title-h1 {
+  color: rgb(95, 93, 93);
+}
+
+.header-title {
+  background-color: darkgray;
+}
+
+.main-style {
+  background-color: aquamarine;
+}
+
+.footer-style {
+  background-color: rosybrown;
+}
+
+.container {
+  margin-top: 1rem;
+  border: 1px solid;
+}
+
+.unitOfMeasurement-title {
+  margin-left: 1rem;
+  /* Se hace mas pequeño dependiendo del tamaño del padre */
+  font-size: 100%;
+  /* Trabaja de igual forma */
+  font-size: 1em;
+  /* Grosor de una fuente */
+  font-weight: 900;
+}
+
+.space-style {
+  /* Altura de linea */
+  line-height: 1.5;
+  /* Agregar espacio entre letras */
+  letter-spacing: 0px;
+  /* Centrar contenido textual */
+  text-align: center;
+}
+
+/*
+La opacidad siempre va de 0 a 1.
+- Agregar opacidad en un color: rgba(95, 93, 93, 0.1)
+
+Para declarar tamaños de letra, por defecto vienen con 16px.
+
+Las unidades de medida pueden ser absolutas y relativas.
+Las absolutas no cambian dependiendo de su contexto y tamaño en pantalla. No depende de nada
+Las relativas se adaptan al tamaño de un contenedor, tamaño de fuente o viewport (pantalla)
+*/
