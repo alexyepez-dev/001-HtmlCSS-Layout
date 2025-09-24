@@ -130,3 +130,27 @@ Tenemos:
 Es el como se van a mostrar los elementos en pantalla
 
 - grid (grilla): Permite trabajar de forma flexible con los elementos a mostrar en pantalla sin importar su tamaño, color, fuente, etc.
+
+## Diseño responsivo:
+
+- breakpoints: Cuando se diseña para pantallas los tamaños cambian, sus distribuciones.
+
+Pantallas:
+
+#### Movil:
+
+- 360 x 800
+- 390 x 844
+- 393 x 873
+
+#### Tablet:
+
+- 768 x 1024
+- 810 x 1080
+- 820 x 1180
+
+#### PC:
+
+- 1920 x 1080
+- 1536 x 864
+- 1366 x 768

@@ -14,10 +14,10 @@ body {
 
 body {
   height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #111827;
+  background-color: #111827; */
 }
 
 .padre {
@@ -40,4 +40,83 @@ body {
   border-radius: 0.7rem;
   width: 3rem;
   height: 3rem;
+}
+
+body {
+  display: grid;
+  /*
+  Permite declarar las areas que se van a usar, 
+  usando los identificadores creados en cada "grid-area" 
+  */
+  grid-template:
+    "header" 80px
+    "nav" 80px
+    "main" 1fr
+    "section"
+    "footer" 80px / 1fr;
+  /* Posiciona los elementos a partir de filas */
+  /* grid-template-rows: 80px 1fr 80px; */
+  /* Posiciona los elementos a partir de columnas */
+  /* grid-template-columns: 15% 1fr 15%; */
+  gap: 10px;
+
+  @media (min-width: 575px) {
+    grid-template:
+      "header header header" 80px
+      "nav main section" 1fr
+      "footer footer footer" 80px /
+      80px 1fr 80px;
+  }
+}
+
+.header-style {
+  background-color: aquamarine;
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  /* Primer forma de usar hover: */
+  &:hover {
+    background-color: aqua;
+  }
+}
+/* Segunda forma de usar hover: */
+/* .header-style:hover {
+  background-color: black;
+} */
+
+.nav-style {
+  background-color: indianred;
+  grid-area: nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.main-style {
+  background-color: beige;
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.section-style {
+  background-color: cadetblue;
+  grid-area: section;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+.footer-style {
+  background-color: cornflowerblue;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
 }
