@@ -116,3 +116,17 @@ Flex-box (caja flexible): Es el que se encarga del posicionamiento, distribucion
 Algunos elementos de flex son:
 
 - display: flex. Organiza los elementos tanto en filas de izquierda a derecha (row) como columnas (column) de arriba a abajo
+
+## Position:
+
+Permite manipular el poscionamiento de elementos en la web.
+Tenemos:
+
+- Relativa: Trabaja con las posiciones (top, right, bottom, left)
+- Absoluta: Trabaja con el tamaño del elemento padre relativo (width, height)
+
+## Maquetado:
+
+Es el como se van a mostrar los elementos en pantalla
+
+- grid (grilla): Permite trabajar de forma flexible con los elementos a mostrar en pantalla sin importar su tamaño, color, fuente, etc.
